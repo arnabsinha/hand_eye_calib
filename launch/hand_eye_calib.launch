@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="hand_eye_calib" pkg="hand_eye_calib" type="hand_eye_calib_node" respawn="false" output="screen">
+	<param name="calibrated" value="true"/>
+
+  </node>
+</launch>
